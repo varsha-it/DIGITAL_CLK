@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: azure;font-family:'Times New Roman', Times, serif;font-size: x-large;margin-left: 20px;">
+    <h1 style ="text-align: center;background-color: #6195af;">Building a Dynamic Digital Clock with JavaScript    </h1>
+    <P style="align-items: center;">1.The digital clock is an alternative to a traditional analogue clock.<br>
+ 2.This type of clock shows numbers to display the time in a digital format, such as on a watch, phone or an alarm clock.<br>
+ 3.In this article I have created a digital clock using JavaScript code and shared it with you.</P>
+<hr>
+<h4>To create a digital clock with JavaScript, you will need to use the Date object to get the current time and update the clock display regularly. Here is an example of a basic digital clock that displays the current time in the format of hours:minutes:seconds:</h4>
+<h5>Source Code - Model 1 refer this git repository</h5>
+
+<ol>
+    <li>The below code is a JavaScript script that creates a digital clock that displays the current time with AM/PM.<br> It uses the HTML Document Object Model (DOM) to select and manipulate the elements on the webpage that display the clock information.</li>
+<li>The script starts by defining a variable clock that selects a specific element on the webpage using the querySelector() function.<br>This element will be used as the container for the clock.</li>
+<li>he script then defines the runClock() function which is used to update the clock display every second.<br> The function starts by creating a new Date object, which holds the current date and time information. It then uses the getHours(), getMinutes(), and getSeconds() methods of the Date object to retrieve the current hour, minutes, and seconds respectively.</li>
+<li>The code then uses several if and else statements to format the time information and to add AM/PM in the clock.<br> The function uses innerHTML property to update the clock's elements on the webpage, with the time information.</li>
+<li>The script then uses setInterval() function to call the runClock() function every 1000 milliseconds (or 1 second), which updates the clock display on the webpage every second.</li>
+<li>Then it calls the runClock() function once to ensure that the clock is showing the current time as soon as the page loads.</li>
+</ol>
+
+
+
+
+</body>
+</html>
